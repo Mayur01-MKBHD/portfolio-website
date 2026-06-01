@@ -10,19 +10,27 @@ const Contact = () => {
           <div className="contact-box">
             <h4>Email</h4>
             <p>
-              <a href="mailto:example@mail.com" data-cursor="disable">
-                example@mail.com
+              <a href="mailto:meetmayur91@gmail.com" data-cursor="disable">
+                meetmayur91@gmail.com
               </a>
             </p>
             <h4>Phone</h4>
             <p>
-              <a href="tel:+9199999999" data-cursor="disable">
-                +91 99999 99999
+              <a href="tel:+917802838895" data-cursor="disable">
+                +91 78028 38895
               </a>
             </p>
           </div>
           <div className="contact-box">
             <h4>Social</h4>
+            <a
+              href="https://www.linkedin.com/in/mayurbichukale-bb3699259"
+              target="_blank"
+              data-cursor="disable"
+              className="contact-social"
+            >
+              Linkedin <MdArrowOutward />
+            </a>
             <a
               href="https://github.com"
               target="_blank"
@@ -30,14 +38,6 @@ const Contact = () => {
               className="contact-social"
             >
               Github <MdArrowOutward />
-            </a>
-            <a
-              href="https://www.linkedin.com"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Linkedin <MdArrowOutward />
             </a>
             <a
               href="https://x.com"
@@ -58,10 +58,10 @@ const Contact = () => {
           </div>
           <div className="contact-box">
             <h2>
-              Designed and Developed <br /> by <span>Moncy Yohannan</span>
+              Designed and Developed <br /> by <span>Mayur Bichukale</span>
             </h2>
             <h5>
-              <MdCopyright /> 2024
+              <MdCopyright /> 2025
             </h5>
           </div>
         </div>

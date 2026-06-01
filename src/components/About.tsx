@@ -6,9 +6,11 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-          dolores numquam iusto Ratione earum ducimus autem id iure pariatur
-          dolorum quae maiores.
+          I am a technology-driven digital operations professional with an MSc
+          in Information Technology and a strong foundation in web development.
+          Currently associated with Inobal and WorthMinds, I manage end-to-end
+          digital operations spanning IT execution, data privacy, project
+          handling, team coordination, and AI-driven content strategy.
         </p>
       </div>
     </div>
