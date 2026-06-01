@@ -56,12 +56,12 @@ const Work = () => {
       alt: "Inobal - International Business Consulting Firm",
     },
     {
-      name: "Project Name",
-      category: "Category",
-      tools: "Tools & Technologies",
-      link: "",
-      image: "/images/placeholder.webp",
-      alt: "",
+      name: "Worth Minds",
+      category: "Leadership & Media Platform",
+      tools: "Next.js, React",
+      link: "https://www.worthminds.com/",
+      image: "/images/worthminds.jpg",
+      alt: "Worth Minds - Leadership & Media Platform",
     },
     {
       name: "Project Name",
