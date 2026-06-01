@@ -52,7 +52,7 @@ const Work = () => {
       category: "International Business Consulting Firm",
       tools: "Laravel, cPanel, PHP",
       link: "https://inobal.com/",
-      image: "/images/inobal.webp",
+      image: "/images/inobal.jpg",
       alt: "Inobal - International Business Consulting Firm",
     },
     {
