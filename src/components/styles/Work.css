@@ -192,7 +192,27 @@
   .work-container {
     align-content: normal;
   }
+  .work-section {
+    height: auto;
+    padding-bottom: 60px;
+  }
   .work-flex {
     height: auto;
+    flex-direction: column;
+    margin-left: 0;
+    padding-right: 0;
+  }
+  .work-box {
+    width: 100%;
+    padding: 30px 20px;
+    border-right: none;
+    border-bottom: 1px solid #363636;
+  }
+  .work-flex .work-box:nth-child(even) {
+    flex-direction: column;
+  }
+  .work-section h2 {
+    font-size: 40px;
+    margin-top: 50px;
   }
 }

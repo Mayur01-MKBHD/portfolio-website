@@ -2,6 +2,7 @@ import {
   createContext,
   PropsWithChildren,
   useContext,
+  useEffect,
   useState,
 } from "react";
 import Loading from "../components/Loading";
@@ -17,6 +18,11 @@ export const LoadingContext = createContext<LoadingType | null>(null);
 export const LoadingProvider = ({ children }: PropsWithChildren) => {
   const [isLoading, setIsLoading] = useState(true);
   const [loading, setLoading] = useState(0);
+
+  useEffect(() => {
+    const t = setTimeout(() => setIsLoading(false), 12000);
+    return () => clearTimeout(t);
+  }, []);
 
   const value = {
     isLoading,
