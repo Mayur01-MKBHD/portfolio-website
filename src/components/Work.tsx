@@ -50,7 +50,7 @@ const Work = () => {
     {
       name: "Inobal",
       category: "International Business Consulting Firm",
-      tools: "Laravel, cPanel, PHP",
+      tools: "Laravel, cPanel, PHP, SEO",
       link: "https://inobal.com/",
       image: "/images/inobal.jpg",
       alt: "Inobal - International Business Consulting Firm",
