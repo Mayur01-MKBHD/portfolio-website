@@ -7,21 +7,13 @@ const Cursor = () => {
   useEffect(() => {
     let hover = false;
     const cursor = cursorRef.current!;
-    const mousePos = { x: 0, y: 0 };
-    const cursorPos = { x: 0, y: 0 };
+    const quickX = gsap.quickTo(cursor, "x", { duration: 0.15, ease: "power3.out" });
+    const quickY = gsap.quickTo(cursor, "y", { duration: 0.15, ease: "power3.out" });
     document.addEventListener("mousemove", (e) => {
-      mousePos.x = e.clientX;
-      mousePos.y = e.clientY;
-    });
-    requestAnimationFrame(function loop() {
       if (!hover) {
-        const delay = 6;
-        cursorPos.x += (mousePos.x - cursorPos.x) / delay;
-        cursorPos.y += (mousePos.y - cursorPos.y) / delay;
-        gsap.to(cursor, { x: cursorPos.x, y: cursorPos.y, duration: 0.1 });
-        // cursor.style.transform = `translate(${cursorPos.x}px, ${cursorPos.y}px)`;
+        quickX(e.clientX);
+        quickY(e.clientY);
       }
-      requestAnimationFrame(loop);
     });
     document.querySelectorAll("[data-cursor]").forEach((item) => {
       const element = item as HTMLElement;
