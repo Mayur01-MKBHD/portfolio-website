@@ -50,7 +50,7 @@ const Work = () => {
     {
       name: "Inobal",
       category: "International Business Consulting Firm",
-      tools: "Laravel, cPanel, PHP, SEO, Admin Management",
+      tools: "Laravel, cPanel, PHP, SEO, Admin Management, Social Media",
       link: "https://inobal.com/",
       image: "/images/inobal.jpg",
       alt: "Inobal - International Business Consulting Firm",
@@ -58,7 +58,7 @@ const Work = () => {
     {
       name: "Worth Minds",
       category: "Leadership & Media Platform",
-      tools: "Next.js, React, Admin Management",
+      tools: "Next.js, React, Admin Management, Social Media",
       link: "https://www.worthminds.com/",
       image: "/images/worthminds.jpg",
       alt: "Worth Minds - Leadership & Media Platform",
