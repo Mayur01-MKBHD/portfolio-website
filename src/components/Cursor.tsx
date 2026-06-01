@@ -25,7 +25,6 @@ const Cursor = () => {
           cursor.classList.add("cursor-icons");
 
           gsap.to(cursor, { x: rect.left, y: rect.top, duration: 0.1 });
-          //   cursor.style.transform = `translate(${rect.left}px,${rect.top}px)`;
           cursor.style.setProperty("--cursorH", `${rect.height}px`);
           hover = true;
         }

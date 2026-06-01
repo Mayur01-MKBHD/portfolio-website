@@ -20,6 +20,11 @@ const WorkImage = (props: Props) => {
       setVideo(blobUrl);
     }
   };
+  const handleMouseLeave = () => {
+    if (video) URL.revokeObjectURL(video);
+    setVideo("");
+    setIsVideo(false);
+  };
 
   return (
     <div className="work-image">
@@ -27,8 +32,9 @@ const WorkImage = (props: Props) => {
         className="work-image-in"
         href={props.link}
         onMouseEnter={handleMouseEnter}
-        onMouseLeave={() => setIsVideo(false)}
+        onMouseLeave={handleMouseLeave}
         target="_blank"
+        rel="noopener noreferrer"
         data-cursor={"disable"}
       >
         {props.link && (
