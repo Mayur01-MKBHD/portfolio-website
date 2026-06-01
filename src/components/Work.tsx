@@ -63,38 +63,6 @@ const Work = () => {
       image: "/images/worthminds.jpg",
       alt: "Worth Minds - Leadership & Media Platform",
     },
-    {
-      name: "Project Name",
-      category: "Category",
-      tools: "Tools & Technologies",
-      link: "",
-      image: "/images/placeholder.webp",
-      alt: "",
-    },
-    {
-      name: "Project Name",
-      category: "Category",
-      tools: "Tools & Technologies",
-      link: "",
-      image: "/images/placeholder.webp",
-      alt: "",
-    },
-    {
-      name: "Project Name",
-      category: "Category",
-      tools: "Tools & Technologies",
-      link: "",
-      image: "/images/placeholder.webp",
-      alt: "",
-    },
-    {
-      name: "Project Name",
-      category: "Category",
-      tools: "Tools & Technologies",
-      link: "",
-      image: "/images/placeholder.webp",
-      alt: "",
-    },
   ];
 
   return (
