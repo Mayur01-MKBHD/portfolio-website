@@ -337,6 +337,7 @@
     width: 100%;
   }
   .what-box-in {
+    display: flex;
     margin-left: 0px;
     height: 450px;
   }
