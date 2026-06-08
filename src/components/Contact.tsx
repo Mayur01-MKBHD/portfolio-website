@@ -1,4 +1,4 @@
-import { MdArrowOutward, MdCopyright, MdDownload } from "react-icons/md";
+import { MdArrowOutward, MdCopyright } from "react-icons/md";
 import "./styles/Contact.css";
 
 const Contact = () => {
@@ -58,14 +58,6 @@ const Contact = () => {
             <h2>
               Designed and Developed <br /> by <span>Mayur Bichukale</span>
             </h2>
-            <a
-              href="/Mayur_Bichukale_Resume.pdf"
-              download="Mayur_Bichukale_Resume.pdf"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Resume <MdDownload />
-            </a>
             <h5>
               <MdCopyright /> 2026
             </h5>
