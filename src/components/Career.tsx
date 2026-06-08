@@ -45,7 +45,7 @@ const Career = () => {
                 <h4>Information Technology Specialist</h4>
                 <h5>Inobal</h5>
               </div>
-              <h3>2023</h3>
+              <h3>NOW</h3>
             </div>
             <p>
               Deployed full-stack website (PHP, Laravel, cPanel); led SEO/GEO
