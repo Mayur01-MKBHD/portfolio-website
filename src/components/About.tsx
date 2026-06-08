@@ -6,11 +6,13 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          I am a technology-driven digital operations professional with an MSc
-          in Information Technology and a strong foundation in web development.
-          Currently associated with Inobal and WorthMinds, I manage end-to-end
-          digital operations spanning IT execution, data privacy, project
-          handling, team coordination, and AI-driven content strategy.
+          Technology & Digital Operations professional with an MSc in
+          Information Technology and 4+ years of experience spanning full-stack
+          web development, IT infrastructure, information security, SEO/GEO
+          strategy, and AI-driven operations. Managing end-to-end digital
+          systems across dual organisational roles, leveraging LLM-augmented
+          workflows and data-driven execution to deliver scalable, measurable
+          outcomes.
         </p>
       </div>
     </div>

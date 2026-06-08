@@ -15,14 +15,14 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Dotnet Developer</h4>
+                <h4>.NET Developer</h4>
                 <h5>Arham Technosoft</h5>
               </div>
               <h3>2022</h3>
             </div>
             <p>
-              Worked on .NET based application development, contributing to
-              backend systems and enterprise software solutions in Ahmedabad.
+              Developed enterprise-grade web applications using .NET, C#,
+              ASP.NET MVC, and SQL Server within Agile sprint cycles.
             </p>
           </div>
           <div className="career-info-box">
@@ -34,22 +34,39 @@ const Career = () => {
               <h3>2023</h3>
             </div>
             <p>
-              Managed IT infrastructure and operations, ensuring secure systems
-              and efficient technology processes for the organization.
+              Administered IT systems and hardware infrastructure, achieving
+              near-zero unplanned downtime. Resolved 15+ support tickets per
+              month with high first-contact resolution rates.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>IT Specialist & Digital Ops Lead</h4>
-                <h5>Inobal & WorthMinds</h5>
+                <h4>Information Technology Specialist</h4>
+                <h5>Inobal</h5>
+              </div>
+              <h3>2023</h3>
+            </div>
+            <p>
+              Deployed full-stack website (PHP, Laravel, cPanel); led SEO/GEO
+              strategy achieving 4x improvement in search impressions within
+              18 days with 5.3% CTR. Managed IT infrastructure, data privacy,
+              and information security governance.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Technology & Digital Operations Lead</h4>
+                <h5>WorthMinds</h5>
               </div>
               <h3>NOW</h3>
             </div>
             <p>
-              Leading end-to-end digital operations, IT execution, data privacy,
-              project handling, team coordination, and AI-driven content strategy
-              across both organizations.
+              Architecting end-to-end digital operations — project management,
+              brand communications, and social media strategy using
+              LLM-augmented workflows and AI tools (ChatGPT, Claude, Gemini,
+              Cursor, n8n).
             </p>
           </div>
         </div>
