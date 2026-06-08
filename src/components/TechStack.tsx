@@ -21,10 +21,10 @@ const imageUrls = [
   "/images/mysql.webp",
   "/images/typescript.webp",
   "/images/javascript.webp",
-  "/images/php2.webp",
-  "/images/laravel2.webp",
-  "/images/csharp2.webp",
-  "/images/dotnet2.webp",
+  "/images/php2.svg",
+  "/images/laravel2.svg",
+  "/images/csharp2.svg",
+  "/images/dotnet2.svg",
 ];
 const textures = imageUrls.map((url) => textureLoader.load(url));
 
