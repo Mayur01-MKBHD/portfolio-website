@@ -49,6 +49,14 @@ const Work = () => {
   }, []);
   const projects = [
     {
+      name: "Shelter4U",
+      category: "Real Estate Platform",
+      tools: "MS SQL Server, Backend Work, Database",
+      link: "https://www.shelter4u.in/",
+      image: "/images/shelter4u.jpg",
+      alt: "Shelter4U - Real Estate Platform",
+    },
+    {
       name: "Inobal",
       category: "International Business Consulting Firm",
       tools: "Laravel, cPanel, PHP, SEO, Admin Management, Social Media",
