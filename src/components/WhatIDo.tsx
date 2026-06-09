@@ -89,21 +89,22 @@ const WhatIDo = () => {
 
             <div className="what-content-in">
               <h3>DEVELOP</h3>
-              <h4>Web & IT Solutions</h4>
+              <h4>Full-Stack Engineering</h4>
               <p>
-                Building secure, scalable web applications and managing IT
-                infrastructure with a focus on performance and reliability.
+                Architecting and deploying production-grade web applications
+                across the full stack — from database design and backend APIs
+                to frontend delivery and server infrastructure management.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">JavaScript</div>
-                <div className="what-tags">TypeScript</div>
-                <div className="what-tags">React</div>
-                <div className="what-tags">Node.js</div>
-                <div className="what-tags">Next.js</div>
-                <div className="what-tags">.NET</div>
-                <div className="what-tags">CSS</div>
+                <div className="what-tags">PHP</div>
+                <div className="what-tags">Laravel</div>
+                <div className="what-tags">C# / .NET</div>
+                <div className="what-tags">MS SQL Server</div>
                 <div className="what-tags">MySQL</div>
+                <div className="what-tags">React</div>
+                <div className="what-tags">Next.js</div>
+                <div className="what-tags">cPanel</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -127,22 +128,23 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>OPERATIONS</h3>
-              <h4>Digital & IT Ops</h4>
+              <h3>STRATEGISE</h3>
+              <h4>Digital Growth & AI Ops</h4>
               <p>
-                Managing end-to-end digital operations, IT security, data
-                privacy, and AI-driven content strategy across organizations.
+                Driving measurable digital outcomes through SEO/GEO strategy,
+                AI-augmented workflows, information security governance, and
+                cross-functional brand operations at an organisational level.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
+                <div className="what-tags">SEO / GEO</div>
+                <div className="what-tags">AI Tools</div>
+                <div className="what-tags">LLM Workflows</div>
                 <div className="what-tags">IT Security</div>
                 <div className="what-tags">Data Privacy</div>
-                <div className="what-tags">AI Strategy</div>
-                <div className="what-tags">Project Mgmt</div>
-                <div className="what-tags">Team Lead</div>
                 <div className="what-tags">Social Media</div>
-                <div className="what-tags">Brand Ops</div>
-                <div className="what-tags">Digital Growth</div>
+                <div className="what-tags">Brand Strategy</div>
+                <div className="what-tags">Project Mgmt</div>
               </div>
               <div className="what-arrow"></div>
             </div>
